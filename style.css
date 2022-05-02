@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    background: #eee;
+    color: black;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1, h2, h3 {
+    color: #4c545d;
+}
+h3 {
+    padding-bottom: 10px;
+}
+p {
+    color: #9fabb2;
+    line-height: 1.7em;
+}
+button {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 12px 28px;
+    border: 1px;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+.button-ios {
+    background-color: #26baa4;
+    box-shadow: 2px 2px 2px #108979;
+}
+.button-ios:hover {
+    background-color: #5bd7c5;
+    box-shadow: 2px 2px 2px #3bc4b2;
+}
+.button-mac {
+    background-color: #6173ff;
+    box-shadow: 2px 2px 2px #3949c0;
+}
+.button-mac:hover {
+    background-color: #909dfe;
+    box-shadow: 2px 2px 2px #6d7be3;
+}
+
+#header-container{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 120px;
+}
+header {
+    width: 45vw;
+    padding: 0px 5px;
+}
+#header-logo {
+    width: 100px;
+    padding-bottom: 40px;
+}
+#headline {
+    padding-bottom: 10px;
+}
+#header-text {
+    padding-bottom: 30px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.container-section {
+    width: 45vw;
+    padding: 0px 5px;
+    margin-bottom: 80px;
+}
+.section-headline {
+    padding-bottom: 15px;
+}
+
+.section.text {
+    font-size: 14px;
+}
+
+.snippets {
+    display: flex;
+    flex-direction: row;
+    margin-left: -375px;
+    margin-bottom: 120px;
+}
+.Mac-monitor-screen img {
+    width: 600px;
+}
+.screen-text-section {
+    text-align: left;
+    width: 35vw;
+    padding-top: 65px;
+    padding-left: 210px;
+}
+.screen-text-section p {
+    font-size: 12px;
+    padding-bottom: 40px;
+}
+
+.section-clipboard {
+    margin-bottom: 60px;
+}
+.section-clipboard img {
+    width: 700px;
+}
+
+.section-workflow-container {
+    width: 45vw;
+    padding: 0px 5px;
+    margin-bottom: 80px;
+}
+.section-workflow-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+.workflow-icons {
+    width: 45vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.workflow-icons img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#section-sponsors img {
+    height: auto;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+#last-section-container {
+    width: 45vw;
+    margin-bottom: 30px;
+}
+.section-download-clipboard {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer {
+    height: 140px;
+    background-color: #d4d2d2;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 130px;
+}
+#footer-logo img {
+    width: 40px;
+    margin-right: 40px;
+}
+#footer-nav-container {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-nav {
+}
+.footer-nav ul {
+    list-style: none;
+    color: #848e94;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-nav ul li {
+    margin-left: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.footer-nav ul li:hover {
+    color: #26baa4;
+}
+#footer-socialmedia-icons {
+    padding-left: 15vw;
+}
+#footer-socialmedia-icons {
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1120px){
+
+    #footer {
+        padding: 40px 0px 40px 7vw;
+    }
+    #footer-socialmedia-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    header {
+        width: 120vw;
+        padding: 0px 70px;
+    }
+    #header-logo {
+        width: 120px;
+        padding-bottom: 60px;
+    }
+    #header-text {
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    ..header-container {
+        width: 85vw;
+    }
+    .section-headline {
+        font-size: 28px;
+    }
+    .section.text {
+        font-size: 16px;
+    }
+    .snippets{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .screen-text-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 85vw;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    .Mac-monitor-screen img {
+        width: 65vw;
+    }
+    .section-text {
+        text-align: center;
+        padding-left: 0px;
+        width: 85vw;
+    }
+    .section-text p {
+        font-size: 16px;
+    }
+    .section-clipboard img {
+        width: 79vw;
+    }
+    .section-workflow-images {
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .section-workflow-container {
+        width: 85vw;
+        padding: 0px 5px;
+        margin-bottom: 40px;
+    }
+    .workflow-icons {
+        width: 85vw;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+    #section-sponsors {
+        margin-bottom: 120px;
+    }
+    #section-sponsors img {
+        height: auto;
+        margin-bottom: 0px;
+    }
+    #last-section-container {
+        width: 70vw;
+        margin-bottom: 35px;
+    }
+    #footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0px;
+    }
+    #footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 55px;
+        margin: 40px 0px;
+    }
+    #footer-logo img {
+        width: 55px;
+    }
+    #footer-nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .footer-nav ul {
+        align-items: center;
+        padding: 0px;
+    }
+    .footer-nav ul li {
+        font-size: 18px;
+        line-height: 2em;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    button {
+        width: 85vw;
+        font-size: 18px;
+        padding: 16px 20px;
+        border-radius: 30px;
+        margin: 13px;
+    }
+    #container-header {
+        background-image: url(images/bg-header-mobile.png);
+    }
+    header {
+        padding: 0px 14px;
+    }
+    .Mac-monitor-screen img {
+        width: 79vw;
+    }
+    .section-clipboard img {
+        width: 89vw;
+    }
+    .section-download-clipboard {
+        display: flex;
+        flex-direction: column;
+    }
+}
